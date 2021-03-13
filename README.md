@@ -1,8 +1,6 @@
 # Moon
 New Programming Language
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```python
+print("Hello world!")
 ```
