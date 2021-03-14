@@ -131,3 +131,32 @@ Confirm2("Moon+ Cool?", "Moon", "No", "No")
 ```
 
 ![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_4.png)
+
+To Make Passoword Window With a system that checks if the password is correct With Your Name Of Window And Text You Need...
+
+Python:
+```python
+while True:
+        t = pg.password(title="Lol", text="Enter Password")
+        password1 = password
+        if t == password1:
+            break
+        elif t == "Cancel":
+            pg.alert("Exiting...", title="App", button="Ok")
+        else:
+            k = pg.confirm("Wrong Password or You Really Want To Exit?", title="App", buttons=['Retry', 'Exit'])
+        if k == "Retry":
+            continue
+        else:
+            exit()
+```
+
+Moon:
+```python
+Password("12345", "Enter Password Or i Kill you pc") 
+```
+
+Yep
+
+To Make Operations With Your Mouse You Need...
+
