@@ -7,7 +7,7 @@ Hi! This Is The First Version Of The Language That Complements The Python Langua
 
 To Install You Need Download Archive And Move "Moon.py" To Your Project. After Write In Your Project "From Moon import *" Done!
 
-# Documentation And Comparison!
+# Comparison!
 
 To Print The Word You Need...
 
@@ -73,6 +73,7 @@ Yes, thats all...
 
 To Colorize Text You Need...
 
+Python
 ```python
 import os
 import time
@@ -112,3 +113,21 @@ Alert("Hello", "Moon+", "Bye!")
 ```
 
 ![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_2.png)
+
+To Make Confirmation Window You Need:
+
+Python:
+```python
+import pyautogui
+
+pyautogui.confirm(text="Hello World?", title="Python?", buttons=["No", "Yes"])
+```
+
+![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_3.png)
+
+Moon:
+```python
+Confirm2("Moon+ Cool?", "Moon", "No", "No")
+```
+
+![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_4.png)
