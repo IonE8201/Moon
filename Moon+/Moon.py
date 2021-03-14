@@ -260,7 +260,6 @@ class Moon:
     def FileDownlader():
         pg.alert("Enter Download Url To Download File", title="Moon+", button="OK")
         startfile("assets\\Downloader.pyw")
-        pg.alert("Ready")
     def DownloadYoutubeVideo(Link, DownloadDirectory):
         YouTube(Link).streams.first().download(DownloadDirectory)
         startfile(DownloadDirectory)
