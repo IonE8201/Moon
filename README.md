@@ -1,5 +1,5 @@
 # Moon
-New Programming Language For Supporting Python
+The Programming Language Is Designed To Improve Performance And Reduce The Size Of The Code.
 
 ```python
 print("Hello world!")
