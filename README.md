@@ -22,3 +22,17 @@ from Moon import *
 
 say("Hello!")
 ```
+Okay, lets skip " from Moon import *". I Think you understand how this is done.
+
+To make sleep effect you need...
+
+Python:
+```python
+import time
+
+time.sleep(1)
+```
+Moon:
+```python
+Pause(1)
+```
