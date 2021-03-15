@@ -31,11 +31,9 @@ import warnings
 debug = False #DEBUG
 #----------*----------
 
-
 #----------*----------
 v_s = "Done" #VERSION STATUS
 #----------*----------
-
 
 #----------*----------
 v = 1.2 #VERSION
