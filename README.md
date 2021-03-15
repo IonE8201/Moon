@@ -9,7 +9,7 @@ With this language, you will be able to make less code, as well as improve your 
 
 To Install You Need Download Archive And Move "Moon.py" and "assets" To Your Project. After Write In Your Project "From Moon import *" Done!
 
-#Whats New In 1.0?
+# Whats New In 1.0?
 Released Project.
 
 # Whats New In 1.1?
