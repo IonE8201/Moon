@@ -120,16 +120,11 @@ import pyautogui
 
 pyautogui.alert(text="Hello", title="Python", button="Hello!")
 ```
-
-![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_1.png)
-
 Moon
 
 ```python
 Alert("Hello", "Moon+", "Bye!")
 ```
-
-![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_2.png)
 
 To Make Confirmation Window You Need:
 
@@ -141,15 +136,11 @@ import pyautogui
 pyautogui.confirm(text="Hello World?", title="Python?", buttons=["No", "Yes"])
 ```
 
-![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_3.png)
-
 Moon
 
 ```python
 Confirm2("Moon+ Cool?", "Moon", "No", "No")
 ```
-
-![Result](https://github.com/IonE8201/Moon/blob/main/Comparsion/Screenshot_4.png)
 
 To Make Password Window With a system that checks if the password is correct With Your Name Of Window And Text You Need...
 
