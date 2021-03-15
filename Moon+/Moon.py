@@ -417,13 +417,13 @@ class GUI:
         app.errorBox(Name, Text)
     def WarningBox(Name, Text):
         app.warningBox(Name, Text)
-    def questionBox(Name, Text):
+    def QuestionBox(Name, Text):
         app.questionBox(Name, Text)
-    def okBox(Name, Text):
+    def OkBox(Name, Text):
         app.okBox(Name, Text)
-    def openBox(Name, Text):
+    def OpenBox(Name, Text):
         app.openBox(Name, Text)
-    def retryBox(Name, Text, Parent):
+    def RetryBox(Name, Text, Parent):
         app.retryBox(Name, Text, Parent)
     def TextArea(Name):
         app.addTextArea(Name)
