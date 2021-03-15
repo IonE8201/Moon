@@ -22,7 +22,7 @@ Updated Documentation *
 
 --*Updated Moon+*--
 
-#Whats New In 1.2?
+# Whats New In 1.2?
 Added New Features
 Fixed Bugs
 Optimazed
