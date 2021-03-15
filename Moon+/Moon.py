@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# 1.1
+# 1.2
 
 import webbrowser
 from PIL import ImageFilter
@@ -28,12 +28,17 @@ import sys
 import warnings
 
 #----------*----------
+debug = False #DEBUG
+#----------*----------
+
+
+#----------*----------
 v_s = "Done" #VERSION STATUS
 #----------*----------
 
 
 #----------*----------
-v = 1.1 #VERSION
+v = 1.2 #VERSION
 #----------*----------
 
 # Init
@@ -46,11 +51,34 @@ app = gui()
 
 # Init Operation Stop
 
+def nothing():
+    pass
+
+if v_s == "Done":
+    nothing()
+else:
+    print( Fore.YELLOW )
+    print("Version In Developing")
+    print( Style.RESET_ALL )
+
+class MoonSettings:
+    def debugON():
+        global debug
+        debug = True
+    def debugOff():
+        global debug
+        debug = False
+    def debugInfo():
+        print("If You A User Please Exit From Debug Function. \n Debug enabling when language in developing or updating.")
+
 def Say(text):
     print(text)
 
 def Pause(t):
     time.sleep(t)
+
+def Skip():
+    pass
 
 class Calc:
     def Plus(a, b):
@@ -317,8 +345,11 @@ class Moon:
         except KeyboardInterrupt:
             print("Stopped")
 
+    def CallReadKey():
+        startfile("assets\\ReadKey\\ReadKey\\bin\\Debug\\netcoreapp3.1\\ReadKey.exe")
+
     def Version():
-        v = 1.1
+        v = 1.2
         print(f"Current Version is: {v} ")
 
     #---------------*------------------------------*---------------
@@ -335,6 +366,12 @@ class GUI:
         app.showAllSubWindows()
     def Label(title, text):
         app.addLabel(title=title, text=text)
+    def setLabel(Name, Text):
+        app.setLabel(Name, Text)
+    def setButton(Name, Text):
+        app.setButton(Name, Text)
+    def Message(Name, Text):
+        app.addMessage(Name, text=Text)
     def LabelBG(title, color):
         app.setLabelBg(title, color)
     def LabelEntry(text):
@@ -342,15 +379,15 @@ class GUI:
     def LabelSecretEntry(text):
         app.addLabelSecretEntry(text)
     def BG(Color):
-        app.setBG(Color)
+        app.setBg(Color)
     def Font(font):
         app.setFont(int(font))
     def Focus(Name):
         app.setFocus(Name)
     def Button(*Button, **Func):
         app.addButton(*Button, **Func)
-    def LabelFG(Name, color):
-        app.setLabelFg(Name, color)
+    def LabelFG(Color):
+        app.setFg(Color)
     def FileMenu(Name, Func):
         fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
         app.addMenuList(Name, fileMenus, Func)
@@ -407,16 +444,17 @@ class GUI:
 
     # Init
     def Init():
-        print( Fore.YELLOW )
-        print("This Is Test Function \n " + "Value: " + "<WARNING>")
-        print( Style.RESET_ALL )
-        time.sleep(0.5)
-        print("Supported By AppJar")
-        time.sleep(0.1)
-        print("Initiating...")
-        print("Initiatiated...")
-        print("Status: " + "Normal")
-        time.sleep(0.3)
+        if debug == True:
+            print( Fore.YELLOW )
+            print("This Is Test Function \n " + "Value: " + "<WARNING>")
+            print( Style.RESET_ALL )
+            time.sleep(0.5)
+            print("Supported By AppJar")
+            time.sleep(0.1)
+            print("Initiating...")
+            print("Initiatiated...")
+            print("Status: " + "Normal")
+            time.sleep(0.3)
         app.go()
 
 ''
