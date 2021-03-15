@@ -1098,6 +1098,12 @@ Moon.PlayMP3(sound.mp3)
 Moon.Version()
 ```
 
+# CallReadKey
+
+```python
+Moon.ReadKey()
+```
+
 ## Atributte GUI
 
 This Atributte alow you Create GUI Apps in your project fast! *(BETA)
