@@ -1,11 +1,14 @@
-# Moon [1.0]
+# Moon 1.0 BETA
 The Programming Language Is Designed To Improve Performance And Reduce The Size Of The Code.
 
 Hi! This Is The First Version Of The Language That Complements The Python Language! Note In Advance That This Is Not A Language That Doesn't Have Variables And Functions! It's All There In Python, Use It All In Python, But There's No Such Thing Here. Why? Since This Is A Great Addition To The Language, It Does Less Code, And Also Has More Than 50 Features, Even More, And Also Note That This Is Only The First Version Of This "Language", So Keep That In Mind. And Yes, I Am A Novice Programmer. And Now Let's Move On To The Comparisons And Documentation! Also, My English Is Bad...
 
 # Installation:
 
-To Install You Need Download Archive And Move "Moon.py" To Your Project. After Write In Your Project "From Moon import *" Done!
+To Install You Need Download Archive And Move "Moon.py" and "assets" To Your Project. After Write In Your Project "From Moon import *" Done!
+
+# Whats New In 1.0?
+Released Language.
 
 # Comparison!
 
@@ -427,13 +430,13 @@ Python
 
 ```python
 def PowerfullImageBlur():
-        img = Image.open("Image.png")
-        blur = img.filter(ImageFilter.BLUR)
-        blur.save("Name.png")
-        img1 = Image.open("Image.png")
-        blur1 = img1.filter(ImageFilter.BLUR)
-        blur1.save("name.png")
-        blur1.show()
+    img = Image.open("Image.png")
+    blur = img.filter(ImageFilter.BLUR)
+    blur.save("Name.png")
+    img1 = Image.open("Image.png")
+    blur1 = img1.filter(ImageFilter.BLUR)
+    blur1.save("name.png")
+    blur1.show()
 PowerfullImageBlur()
 ```
 
@@ -685,7 +688,7 @@ Moon.Documentation()
 
 Comparsion End.
 
-## DOCUMENTATION
+### DOCUMENTATION
 
 # Say Function
 
@@ -709,7 +712,7 @@ Pause(1)
 
 In arguments we writing seconds.
 
-# Atributte "Calc"
+## Atributte "Calc"
 
 To make operation "Plus" or "Minus" or Other
 
@@ -728,7 +731,9 @@ Plus or Other - Function in Atributte
 
 # Function Voice
 
+```python
 Voice("Hello, world!")
+```
 
 In Result we get voice.
 
@@ -736,19 +741,25 @@ In arguments we writing words
 
 # Function Colorize_Text
 
+```python
 Colorize_Text("Hello!")
+```
 
 In Arguments We Writing Words.
 
 # Function Leave
 
+```python
 Leave()
+```
 
 Leave() - exit() in python.
 
 # Function Alert
 
+```python
 Alert("Hello!", "Bye!", "What")
+```
 
 1 - Text
 2 - Title
@@ -756,7 +767,9 @@ Alert("Hello!", "Bye!", "What")
 
 # Confirm Functions
 
+```python
 Confirm2("Hello", "Bye", "But", "How")
+```
 
 Confirm - One Button
 Confirm2 - Two Buttons
@@ -769,7 +782,9 @@ Confirm2 - Two Buttons
 
 # Function Password
 
+```python
 Password("12345", "Write Password", "App")
+```
 
 1 - Passoword
 2 - Text
@@ -777,4 +792,284 @@ Password("12345", "Write Password", "App")
 
 In arguments we giving password, text, title
 
-## To be continued... (SOON)
+## Atributte Mouse
+
+```python
+Mouse.Right(100, 100, 0.5)
+```
+
+Mouse - Atributte
+Right - Function In Atributte
+1 Arg - X Pos
+2 Arg - Y Pos
+3 Arg - Duration
+
+```python
+Mouse.Left(100, 100, 0.5)
+```
+
+Mouse - Atributte
+Left - Function In Atributte
+1 Arg - X Pos
+2 Arg - Y Pos
+3 Arg - Duration
+
+To Make Double Click We Write
+
+```python
+Mouse.Double(100, 100, 0.5)
+```
+
+To Make Trouble Click We Write
+
+```python
+Mouse.Triple(100, 100, 0.5)
+```
+# Scroll
+
+To Make Scroll Up We Need To Write
+
+```python
+Mouse.Scroll(100, 100)
+```
+
+1 Arg - Power
+2 Arg - Percent Of Scroll
+
+# Function Scroll
+
+To Make Scroll Down We Need To Write
+
+```python
+Mouse.ScrollDown(100, 100)
+```
+
+1 Arg - Power
+2 Arg - Percent Of Scroll
+
+# Cordinates Function
+
+To Get Cordinates Of Mouse We Need To Write
+
+```python
+Mouse.Cordinates()
+```
+
+To Click The Middle Button We Need To Write
+
+# Middle Click Function
+
+```python
+Mouse.Middle(100, 100, 0.5)
+```
+
+## Atributte Keyboard
+
+# Type Word Function
+
+```python
+Keyboard.Write("Hello", 0.5)
+```
+Arg 1 - Word
+Arg 2 - Duration
+
+# Press Function
+
+```python
+Keyboard.Press("f4", 5, 0.5)
+```
+
+Arg1 - Key
+Arg2 - Pressed
+Arg3 - Duration
+
+# Combo Press Function
+
+```python
+Keyboard.PressCombo("alt", "f4")
+```
+
+1 Arg - Key1
+2 Arg - Key2
+
+## Atributte System
+
+# Off Function
+
+```python
+System.PCOff()
+```
+
+# Task Manager Start Function
+
+```python
+System.Task()
+```
+
+# Start Explorer With C Disk Directory
+
+```python
+System.C()
+```
+
+# Start Explorer
+
+```python
+System.Explorer()
+```
+
+## Atributte SyS
+
+# Manufacturer
+
+```python
+SyS.Manufacturer()
+```
+
+# Model
+
+```python
+SyS.Model()
+```
+
+# NumberOfProcessors
+
+```python
+SyS.NumberOfProcessors
+```
+
+# SystemType
+
+```python
+SyS.SystemType()
+```
+
+# Get All Info
+
+```python
+SyS.ALL()
+```
+
+## Atributte Moon
+
+# Countdown
+
+```python
+Moon.Countdown(3)
+```
+
+1 Arg - Sec
+
+# Screenshot
+
+```python
+Moon.Screenshot("Hello_World!")
+```
+
+1 Arg - Screenshot Name
+
+# LocateOnScreen
+
+```python
+Moon.LocateOnScreen("Image.png")
+```
+
+1 Arg - Image Directory
+
+# ISay
+
+```python
+Moon.ISay("Hello", "Python", "Hello")
+```
+
+1 Arg - Text
+2 Arg - Title
+3 Arg - Button
+
+# CreateBlankWindow
+
+```python
+Moon.CreateBlankWindow()
+```
+
+# ImageBlur
+
+```python
+Moon.ImageBlur("Hello", "Hello2")
+```
+
+1 Arg - Image Directory
+2 Arg - Result FileName
+
+# PowerfullImageBlur
+
+```python
+Moon.PowerfullImageBlur("Hello", "Hello2")
+```
+
+1 Arg - Image Directory
+2 Arg - Result FileName
+
+# ImageInfo
+
+```python
+Moon.ImageInfo("Hello")
+```
+
+1 Arg - Directory
+
+# AddTextImage
+
+```python
+Moon.AddTextOnImage("Hello", "Hello!", (255, 0, 0), (0, 50, 0), "Hello2")
+```
+
+1 Arg - Image Directory
+2 Arg - Text
+3 Arg - Color
+4 Arg - Pos
+5 Arg - Result FileName
+
+# Universal Notepad
+
+```python
+Moon.Notepad()
+```
+
+# FaceReader (Webcam Requires)
+
+```python
+Moon.FaceReader()
+```
+
+# FileDownloader
+
+```python
+Moon.FileDownloader()
+```
+
+In Input Line Enter Download URL
+
+# DownloadYoutubeVideo
+
+```python
+Moon.DownloadYoutubeVideo("Link", "Directory")
+```
+
+# Help
+
+```python
+Moon.Help()
+```
+
+# Documentation
+
+```python
+Moon.Documentation
+```
+
+## About
+
+Summing Up, I Want To Say That This Language Is Quite Good, I Do Not Want To Show A Braggart and Self-Promotion. But It's Really Not bad, is It? I Hope You Understand Everything In The Documentation, And Everything Else Is Clear! An Update Will Be Released Soon! Good luck to everyone!
+
+## Good Bye!
