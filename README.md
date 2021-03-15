@@ -1,16 +1,35 @@
-# Moon 1.0 BETA
+# Moon 1.2
+
 The Programming Language Is Designed To Improve Performance And Reduce The Size Of The Code.
 
-Hi! This Is The First Version Of The Language That Complements The Python Language! Note In Advance That This Is Not A Language That Doesn't Have Variables And Functions! It's All There In Python, Use It All In Python, But There's No Such Thing Here. Why? Since This Is A Great Addition To The Language, It Does Less Code, And Also Has More Than 50 Features, Even More, And Also Note That This Is Only The First Version Of This "Language", So Keep That In Mind. And Yes, I Am A Novice Programmer. And Now Let's Move On To The Comparisons And Documentation! Also, My English Is Bad...
+With this language, you will be able to make less code, as well as improve your project! You can get everything you need at the bottom, and that's it. Good luck to everyone and Bye! And My English So Bad...
 
 # Installation:
 
 To Install You Need Download Archive And Move "Moon.py" and "assets" To Your Project. After Write In Your Project "From Moon import *" Done!
 
-# Whats New In 1.0?
-Released Language.
+#Whats New In 1.0?
+Released Project.
 
-# Comparison!
+# Whats New In 1.1?
+Added new features /
+Added New Atributte Or Fucntion "GUI" /
+Optimazed / 
+Added More Info /
+Updated Readme /
+Updated Documentation *
+
+--*Updated Moon+*--
+
+#Whats New In 1.2?
+Added New Features
+Fixed Bugs
+Optimazed
+
+--*Updated Moon+*--
+
+
+# Comparison! (OLD)
 
 Lets Start With Comparsion!
 
@@ -679,7 +698,7 @@ Moon.Documentation()
 
 Comparsion End.
 
-### DOCUMENTATION
+### DOCUMENTATION (Updated)
 
 # Say Function
 
@@ -1059,8 +1078,350 @@ Moon.Help()
 Moon.Documentation
 ```
 
+# SimualteCMD
+
+```python
+Moon.SimualteCMD()
+```
+Simulates CMD In Your Project
+
+# PlayMP3
+
+```python
+Moon.PlayMP3(sound.mp3)
+```
+
+# Version
+
+```python
+Moon.Version()
+```
+
+## Atributte GUI
+
+This Atributte alow you Create GUI Apps in your project fast! *(BETA)
+
+To Create Window And Write Text We Need
+
+```python
+GUI.Label("one", "Hello, world!")
+GUI.Init()
+```
+
+We Get Window With Text "Hello, world!"
+
+in Gui.Label We Write variable - one, in arg. 2 - Text
+
+# Set Label BG
+
+```python
+GUI.Label("Title", "Hello")
+GUI.LabelBG("Title","red")
+GUI.Init()
+```
+
+# Add Input Zone
+
+```python
+GUI.Label("Title", "Hello")
+GUI.LabelBG("Title","red")
+GUI.LabelEntry("Username")
+GUI.Init()
+```
+
+# Add Secret Input Zone
+
+```python
+GUI.LabelSecretEntry("Hello")
+GUI.Init()
+```
+
+We Get Secret Input
+by the way, what is it
+```python
+GUI.Init()
+```
+
+GUI - Atributte
+Init - Function
+GUI.Init - Calling The Code or Just Starting Our App.
+
+# Set BG
+
+```python
+GUI.BG("red")
+GUI.Init()
+```
+We Get App With Red Background
+
+# Font Size
+
+```python
+GUI.Font(18)
+GUI.Init()
+```
+
+We Make Bigger-Lower Font In App.
+
+# Focus on object (When start app mouse will on object)
+
+```python
+GUI.Label("one", "Text")
+GUI.Focus("one")
+GUI.Init()
+```
+We maked it!
+
+# Create Button
+
+```python
+GUI.Button("Click me", function)
+```
+
+in end write name of your function
+
+# Message
+
+```python
+GUI.Message("title", "Hello!")
+GUI.Init()
+```
+
+# Set Label Colors
+
+```python
+GUI.LabelFg("red")
+GUI.Init()
+```
+
+# Create FileMenu
+
+```python
+GUI.FileMenu("Hello!", Function)
+```
+Function - Def
+
+# SubWindow ( May Not Work Beacuse Function In Test )
+
+```python
+GUI.ShowSubWindow()
+GUI.SubWindow("Hello")
+GUI.Init()
+```
+
+# SplashScreen 
+
+```python
+GUI.SplashScreen("Hello", "red", "black", "white", 18)
+GUI.Label("title", "hello")
+GUI.Init()
+```
+
+1 - Text
+2 - background
+3 - text background
+4 - font color
+5 - font size
+
+# Get FULL Documentation
+
+```python
+GUI.Documentation()
+```
+
+# Validation Entry
+
+```python
+GUI.ValidationEntry(Hello)
+GUI.Init()
+```
+
+Validation Entry
+
+# CheckBox
+
+```python
+GUI.Checkbox("title", "Create Cool Language")
+```
+
+# SET Checkbox
+
+```python
+GUI.setCheckBox(CheckBoxName)
+```
+If we start programm checkbox will be checked!
+
+# Radio Button
+
+```python
+GUI.RadioButton("title", "RadioButton1")
+```
+
+# Scale
+
+```python
+GUI.Scale("Choose Your Value On This Cool Scale!")
+```
+
+# Add Link
+
+```python
+GUI.addLink("Hello", "Click Me", "https://github.com/IonE8201/Moon", Function)
+```
+# InfoBox
+
+```python
+GUI.InfoBox("title", "Hello!")
+```
+
+# ErrorBox
+
+```python
+GUI.ErrorBox("title", "Hello!")
+```
+
+# WarningBox
+
+```python
+GUI.WarningBox("title", "Hello!")
+```
+
+# QuestionBox
+
+```python
+GUI.QuestionBox("title", "Hello!")
+```
+
+# OkBox
+
+```python
+GUI.OkBox("title", "Hello!")
+```
+
+# FileOpenBox
+
+```python
+GUI.OpenBox("title", "Hello!")
+```
+
+# TextArea
+
+```python
+GUI.TextArea("title")
+```
+
+# Add Image
+
+```python
+GUI.Image(ImageDirectory)
+```
+
+# Set Icon
+
+```python
+GUI.Icon(ImageDirectory)
+```
+
+# Info
+
+```python
+GUI.Info()
+```
+
+# Now let's make a quick app with all our knowledge. (Clicker)
+
+First Create Variable "Value"
+
+After Create Function press:
+
+```python
+value = 0
+
+def press():
+    try:
+        global value
+        value += 1
+        #print(value)
+        GUI.setLabel("title", "Clicks=" + str(value))
+```
+
+Set Var Global and adding 1 after press
+Monitoring Clicks
+
+```python
+if value >= 100:
+            GUI.InfoBox("Hello", "You Win!")
+            GUI.setLabel("title", "YOU WIN!")
+            del value
+            Say("You Win!")
+            GUI.Message("title", "You Win!!!")
+```
+
+Logic, Giving if statement, after Giving infobox.
+setting label
+after deleting var value
+and saying you win
+and adding message 
+
+```python
+except NameError:
+        print("")
+```
+
+adding except
+
+```python
+GUI.BG("grey")
+GUI.Label("title", "Hello")
+GUI.Button("Click Me", press)
+GUI.LabelFG("red")
+GUI.LabelBG("title", "white")
+GUI.Init()
+```
+
+connecting def press
+and set fg red and bg grey
+and adding labels and buttons
+
+After Initiating
+
+!
+
+Ready!
+
+Code:
+
+```python
+value = 0
+
+def press():
+    try:
+        global value
+        value += 1
+        #print(value)
+        GUI.setLabel("title", "Clicks=" + str(value))
+        if value >= 100:
+            GUI.InfoBox("Hello", "You Win!")
+            GUI.setLabel("title", "YOU WIN!")
+            del value
+            Say("You Win!")
+            GUI.Message("title", "You Win!!!")
+    except NameError:
+        print("")
+
+GUI.BG("grey")
+GUI.Label("title", "Hello")
+GUI.Button("Click Me", press)
+GUI.LabelFG("red")
+GUI.LabelBG("title", "white")
+GUI.Init()
+
+```
+
+App Ready! 
+
 ## About
 
-Summing Up, I Want To Say That This Language Is Quite Good, I Do Not Want To Show A Braggart and Self-Promotion. But It's Really Not bad, is It? I Hope You Understand Everything In The Documentation, And Everything Else Is Clear! An Update Will Be Released Soon! Good luck to everyone!
+Summing Up, I Want To Say That This Language Is Quite Good, I Do Not Want To Show A Braggart and Self-Promotion. But It's Really Not bad, is It? I Hope You Understand Everything In The Documentation, And Everything Else Is Clear! Good luck to everyone! 
 
 ## Good Bye!
