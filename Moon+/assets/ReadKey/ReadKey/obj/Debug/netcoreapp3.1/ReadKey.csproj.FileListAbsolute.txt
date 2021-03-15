@@ -1,0 +1,13 @@
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.csprojAssemblyReference.cache
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.AssemblyInfoInputs.cache
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.AssemblyInfo.cs
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.csproj.CoreCompileInputs.cache
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\bin\Debug\netcoreapp3.1\ReadKey.exe
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\bin\Debug\netcoreapp3.1\ReadKey.deps.json
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\bin\Debug\netcoreapp3.1\ReadKey.runtimeconfig.json
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\bin\Debug\netcoreapp3.1\ReadKey.runtimeconfig.dev.json
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\bin\Debug\netcoreapp3.1\ReadKey.dll
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\bin\Debug\netcoreapp3.1\ReadKey.pdb
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.dll
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.pdb
+C:\Users\PC-TV\Desktop\Moon+\assets\ReadKey\ReadKey\obj\Debug\netcoreapp3.1\ReadKey.genruntimeconfig.cache
