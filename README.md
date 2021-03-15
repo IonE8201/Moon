@@ -30,7 +30,7 @@ from Moon import *
 say("Hello!")
 ```
 
-Okay, lets skip " from Moon import *". I Think you understand how this is done.
+Okay, lets skip " from Moon import *". I Think you understand how this is making.
 
 To make sleep effect you need...
 
