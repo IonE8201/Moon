@@ -139,7 +139,7 @@ class Keyboard:
         pg.write(word, duration)
     def Press(key, presses, duration):
         pg.press(key, int(presses), duration)
-    def Press_Combo(key, key2):
+    def PressCombo(key, key2):
         pg.press(key)
         pg.press(key2)
 
