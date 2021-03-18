@@ -2,8 +2,30 @@
 
 # 1.4
 
-from Moon_Modules import *
-from Moon_VoiceRead import *
+import webbrowser
+from PIL import ImageFilter
+import pyttsx3
+import os
+import time
+import pyautogui as pg
+from os import link, startfile
+#import PIL
+from PIL import Image, ImageGrab
+from PIL import *
+import wmi
+from PIL import ImageDraw,ImageFont
+import pyscreenshot
+from pyautogui import locateOnScreen
+import cv2
+from PyQt5 import uic
+from PyQt5.QtWidgets import QApplication
+from pytube import YouTube
+from playsound import *
+from colorama import Fore, Style
+from webbrowser import *
+from tkinter import messagebox
+import sys
+import warnings
 
 # Function
 
@@ -656,7 +678,25 @@ class Moon:
         Speech To Text
 
         '''
-        VoiceRead()
+        def VoiceRead():
+            import speech_recognition as sr
+            import time as t
+
+            record = sr.Recognizer()
+            microphone = sr.Microphone()
+
+            while True:
+                with microphone as source:
+                    record.adjust_for_ambient_noise(source)
+                    audio = record.listen(source)
+                    result = record.recognize_google(audio, language="ru_RU")
+                    result = result.lower()
+
+                    print(format(result))
+
+                    t.sleep(1)
+                    pg.write(result, 0.1)  
+            
     def Version():
         '''
 
