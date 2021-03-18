@@ -13,11 +13,11 @@ To Install You Need Download Archive And Move "Moon.py" and "assets" To Your Pro
 Released Project.
 
 # Whats New In 1.1?
-Added new features /
-Added New Atributte Or Fucntion "GUI" /
-Optimazed / 
-Added More Info /
-Updated Readme /
+Added new features 
+Added New Atributte Or Function "GUI" 
+Optimazed 
+Added More Info 
+Updated Readme 
 Updated Documentation *
 
 --*Updated Moon+*--
@@ -27,10 +27,20 @@ Added New Features
 Fixed Bugs
 Optimazed
 
+# Whats New In 1.3?
+Added New Features
+Deleted Some Functions
+Optimazed
+
+--*Updated Moon+*--
+
+# Whats New In 1.4?
+Added New Features
+
 --*Updated Moon+*--
 
 
-# Comparison! (OLD)
+# Comparison! (VERY OLD)
 
 Lets Start With Comparsion!
 
@@ -699,7 +709,7 @@ Moon.Documentation()
 
 Comparsion End.
 
-### DOCUMENTATION (Updated)
+### DOCUMENTATION (Updated) [1.4]
 
 # Say Function
 
@@ -1103,6 +1113,39 @@ Moon.Version()
 ```python
 Moon.ReadKey()
 ```
+
+# DirectCommandToCMD
+
+```python
+Moon.DirectCommandToCMD("shutdown /s")
+```
+
+Computer Will Be ShutDowned
+
+# CallVoiceRead TEST!
+
+```python
+Moon.CallVoiceRead()
+```
+
+## Atributte MoonInfo
+
+```python
+Say(MoonInfo.__version__)
+```
+
+Get Version
+
+```python
+Say(MoonInfo.__author__)
+```
+Get Author
+
+```python
+Say(MoonInfo.__license__)
+```
+
+Get License
 
 ## Atributte GUI
 
