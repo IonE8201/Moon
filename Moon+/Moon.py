@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# 1.4
+# 1.5
 
 import webbrowser
 from PIL import ImageFilter
@@ -44,7 +44,7 @@ v_s = "Done" #VERSION STATUS
 
 
 #----------*----------
-v = 1.4 #VERSION
+v = 1.5 #VERSION
 #----------*----------
 
 # Init
@@ -703,7 +703,7 @@ class Moon:
         Version
 
         '''
-        v = 1.4
+        v = 1.5
         print(f"Current Version is: {v} ")
 
     
@@ -1033,7 +1033,7 @@ class GUI:
         '''
         #----------*----------
         __author__ = "Ivan Perzinskiy"
-        __version__ = "1.4"
+        __version__ = "1.5"
         __credits__ = "Apache License 2.0"
         #----------*----------
 
