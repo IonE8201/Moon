@@ -43,6 +43,11 @@ Optimazed
 
 --*Updated Moon+*--
 
+# Whats New In 1.5?
+Optimazed
+
+--*Updated Moon+*--
+
 
 # Comparison! (VERY OLD)
 
