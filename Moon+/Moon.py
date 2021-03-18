@@ -10,16 +10,6 @@ from Moon_VoiceRead import *
 def nothing():
     pass
 
-class MoonInfo:
-    '''
-    Moon Info, Atributte MoonInfo
-    '''
-    #----------*----------
-    __author__ = "Ivan Perzinskiy"
-    __version__ = "1.4"
-    __credits__ = "Apache License 2.0"
-    #----------*----------
-
 
 #----------*----------
 debug = False #DEBUG
@@ -617,24 +607,6 @@ class Moon:
         startfile(DownloadDirectory)
         time.sleep(0.5)
         pg.alert("Downloaded", title="Moon+", button="OK")
-    def EnterInterpreter(): # TEST
-        '''
-
-        Enter Interpretetor [TEST]
-
-        '''
-        playsound("assets\\beep.mp3")
-        while True: 
-            print(f"InterpreterVersion: {1.0} ")
-            time.sleep(0.5)
-            c = input(">>> ")
-            command = c.title()
-            if command == "Hello World!":
-                print("Hello, world!")
-            else:
-                Error = 0
-                Error += 1
-                print(f"ErrorDetected: \n Error Founded: \n [UknownInterpreterCommand]: \n  Errors Value: {Error} ")
     def SimulateCMD():
         '''
 
@@ -664,7 +636,6 @@ class Moon:
             warnings.warn("[UnicodeDecodeError] Please Check Your Code", stacklevel=2)
         except KeyboardInterrupt:
             print("Stopped")
-
     def CallReadKey():
         '''
 
@@ -672,7 +643,6 @@ class Moon:
 
         '''
         startfile("assets\\ReadKey\\ReadKey\\bin\\Debug\\netcoreapp3.1\\ReadKey.exe")
-
     def DirectCommandToCMD(command):
         '''
 
@@ -680,15 +650,13 @@ class Moon:
 
         '''
         os.system(command)
-
-    def CallVoiceRead():
+    def CallVoiceRead(): # TEST
         '''
 
         Speech To Text
 
         '''
         VoiceRead()
-
     def Version():
         '''
 
@@ -697,6 +665,28 @@ class Moon:
         '''
         v = 1.4
         print(f"Current Version is: {v} ")
+
+    
+    #Interpretetor
+
+    def EnterInterpreter(): # TEST
+        '''
+
+        Enter Interpretetor [TEST]
+
+        '''
+        playsound("assets\\beep.mp3")
+        while True: 
+            print(f"InterpreterVersion: {1.0} ")
+            time.sleep(0.5)
+            c = input(">>> ")
+            command = c.title()
+            if command == "Hello World!":
+                print("Hello, world!")
+            else:
+                Error = 0
+                Error += 1
+                print(f"ErrorDetected: \n Error Founded: \n [UknownInterpreterCommand]: \n  Errors Value: {Error} ")
 
     #---------------*------------------------------*---------------
     def Help():
@@ -997,7 +987,17 @@ class GUI:
         print("Opened")
     #/----------*--------------------*----------\
 
-# Info
+    class MoonInfo:
+        '''
+        Moon Info, Atributte MoonInfo
+        '''
+        #----------*----------
+        __author__ = "Ivan Perzinskiy"
+        __version__ = "1.4"
+        __credits__ = "Apache License 2.0"
+        #----------*----------
+
+# Additionall Info
 
 "THIS IS A TEST VERSION OF THIS LANGUAGE, SO PLEASE SEND A BUG REPORT TO GITHUB IF YOU GET AN ERROR."
 "https://github.com/IonE8201/Moon"
