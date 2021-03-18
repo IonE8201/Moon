@@ -39,6 +39,7 @@ Optimazed
 
 # Whats New In 1.4?
 Added New Features
+Optimazed
 
 --*Updated Moon+*--
 
